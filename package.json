@@ -1,0 +1,28 @@
+{
+  "name": "atividaderenanbackend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mettznermello-png/AtividadeRenanBackend#readme",
+  "bugs": {
+    "url": "https://github.com/mettznermello-png/AtividadeRenanBackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mettznermello-png/AtividadeRenanBackend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.5",
+    "sequelize": "^6.37.8"
+  }
+}
